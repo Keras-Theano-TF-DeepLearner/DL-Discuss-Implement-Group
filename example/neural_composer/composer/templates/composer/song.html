@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Song</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+<body>
+    <div style="margin: 0 auto; width: 50%; font-family: 'Inconsolata', monospace;">
+        {% if song.is_composed %}
+            <pre>{{ song.song|safe }}</pre>
+            <audio controls>
+              <source src="{{ song.mp3_media }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        {% else %}
+            Composing...
+        {% endif %}
+    </div>
+</body>
+</html>

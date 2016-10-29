@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neural Composer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+<body>
+
+<div style="margin: 30px auto; width: 50%; text-align: center; font-family: 'Inconsolata', monospace;">
+    <h3>Songs composed: {{ song_count }}</h3>
+    <a href="{% url 'composer_compose_song' %}"><button>Compose</button></a>
+    <div style="margin-top: 30px;">
+        <a href="/composer/song/a074e40c35/">Example song</a>
+    </div>
+    <div style="text-align: left; margin-top: 50px;">
+        <p>
+            Using over 20k tunes in ABC notation from <a href="https://thesession.org/">The Session</a> and awesome deep learning library called <a target="_blank" href="https://github.com/fchollet/keras">Keras</a> I've trained a multi-layer recurrent neural model that can build some melodies from scratch predicting exactly the next character in the text representation of a song. The output of this model then gets converted to MP3 format so it can be played in a browser right away.
+        </p>
+        </br>
+        <p>
+            There is also a <a target="_blank" href="https://telegram.me/SongComposerBot">Telegram bot by AyumuKasuga</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

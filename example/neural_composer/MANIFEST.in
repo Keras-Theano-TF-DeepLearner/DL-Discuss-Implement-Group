@@ -1,0 +1,6 @@
+include MANIFEST.in
+include setup.py
+recursive-include composer/migrations *
+recursive-include composer/model_conf *
+recursive-include composer/static *
+recursive-include composer/templates *
