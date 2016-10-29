@@ -1,2 +1,5 @@
-# DL-Discuss-Implement-Group
-深度学习讨论小组，欢迎积极分享资料，例程，回答以及提出相应问题
+# resource
+该文件夹主要收集一些学习资料，欢迎大家积极共享，偏小的文件可以直接上传，较大的文件建议在readme内更新下载链接
+
+***
+[deep_learning.pdf---bengio](http://vdisk.weibo.com/s/cYgSG45Bd1zCe)
