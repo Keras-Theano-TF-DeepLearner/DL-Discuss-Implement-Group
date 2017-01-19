@@ -1,0 +1,14 @@
+提供一些在构建深度学习神经网络的实用链接
+
+1 keras教程中文版（python）
+地址；https://keras-cn.readthedocs.io/en/latest/
+
+2《Nature》杂志专门为“人工智能 + 机器人”开辟了一个专题LeCun、Bengio和Hinton首次合作的这篇综述文章“Deep Learning”
+原文：https://www.dropbox.com/s/9sr3dyvtvsso0m3/A783E1A3-1B78-43E6-A86A-D7F26DE9A52F.pdf?dl=0
+翻译：http://blog.csdn.net/tsb831211/article/details/51833509
+
+3 Deep Learning Tutorial
+地址：http://deeplearning.net/tutorial/deeplearning.pdf
+
+4 Neural Networks and Deep Learning 中文翻译，其中包括对于反向传播算法，激活函数，过拟合等等原理的讲解
+地址：https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/
